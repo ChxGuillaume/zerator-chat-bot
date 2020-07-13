@@ -1,4 +1,4 @@
 # zerator-chat-bot
 
-# License
+## License
 This project is under MIT license.

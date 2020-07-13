@@ -40,6 +40,6 @@ class ZeratorChatMessages {
 
     async insertMessage(channel, tags, message, self) {
         const collection = this.db.collection('chat');
-        return collection.insertOne({channel, tags, message, self}, {});
+        return collection.insertOne({channel, tags, message, self, date: new Date()}, {});
     }
 }
